@@ -1,0 +1,18 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+        "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to="Main">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='main.client.Main'/>
+
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/MainService' class='main.server.MainServiceImpl'/>
+
+    <source path="shared"/>
+    <source path="client"/>
+    <source path="server"/>
+</module>
